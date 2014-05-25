@@ -1,5 +1,23 @@
 #Code book for run_analysis.R
 
+##The Data ##
+
+tidy.txt is a merger of test and training data from research conducted by
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. 
+Smartlab - Non Linear Complex Systems Laboratory 
+DITEN - UniversitÃ  degli Studi di Genova, Genoa I-16145, Italy. 
+activityrecognition '@' smartlab.ws 
+www.smartlab.ws 
+
+
+tidy.txt extracts only the measurements on the mean and standard deviation for each measurement. 
+tidy.txt has chaged the descriptive activity names to name the activities in the data set
+tidy.txt has appropriately changed the labels in the data set to descriptive activity names. 
+
+tidy.txt is a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+Both tidy and tidy2 are created with one scipt, run_analysis.R
+
 ##The processes##
 ###Loading Data
 
